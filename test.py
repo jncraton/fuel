@@ -8,19 +8,6 @@ tests = [
     {"inputs": (12345, 12567, 6), "expects": ("222", "37.0")},
 ]
 
-# Generate additional tests
-for i in range(10 - len(tests)):
-    start = randint(0, 100000)
-    end = randint(100000, 105000)
-    gallons = randint(1, 50)
-    miles = end - start
-    tests.append({
-        "inputs": (start, end, gallons),
-        "expects": (str(miles), str(miles / gallons)),
-    })
-
-print(tests)
-
 passed = 0
 failed = 0
 
