@@ -9,7 +9,7 @@ class Runner:
 
     def run(self):
         runpy.run_path(
-            "gas.py", {"print": self._print, "input": self._input}, "__main__"
+            "fuel.py", {"print": self._print, "input": self._input}, "__main__"
         )
         return self.output
 
