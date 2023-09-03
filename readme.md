@@ -32,6 +32,15 @@ Here is a screen recording of a correct run:
 
 The text of your program need not be identical to the above, but the calculated values should be correct.
 
+Key Concepts
+------------
+
+In order to complete this lab, you'll need use the following:
+
+- The [print](https://docs.python.org/3/library/functions.html#print) statement
+- The [input](https://docs.python.org/3/library/functions.html#input) statement
+- [Variables](https://www.py4e.com/html3/02-variables)
+
 Testing
 -------
 
