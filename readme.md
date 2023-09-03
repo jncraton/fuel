@@ -8,7 +8,7 @@ A fuel economy calculator. This tool can be used to quickly calculate your fuel 
 Assignment
 ----------
 
-Create program which does the following, in this order:
+Create program which does the following in order:
 
 1. Request the mileage at the last fill-up from the user
 2. Request the current mileage from the user
