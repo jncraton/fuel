@@ -12,7 +12,7 @@ Create program which does the following, in this order
 
 1. Request the mileage at the last fill-up from the user
 2. Request the current mileage from the user
-3. Display the miles travelled to the user
+3. Display the miles traveled to the user
 4. Request amount of gas added to the tank on this fill-up
 5. Display the miles per gallon for this fill-up to the user
 
