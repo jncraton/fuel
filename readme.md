@@ -37,9 +37,11 @@ Key Concepts
 
 In order to complete this lab, you'll need to use the following:
 
-- The [print](https://docs.python.org/3/library/functions.html#print) statement
-- The [input](https://docs.python.org/3/library/functions.html#input) statement
-- [Variables](https://www.py4e.com/html3/02-variables)
+- The [print](https://docs.python.org/3/library/functions.html#print) statement for displaying text output
+- The [input](https://docs.python.org/3/library/functions.html#input) statement for accepting text input
+- The [int](https://docs.python.org/3/library/functions.html#int) statement for converting text input to numbers
+- [Variables](https://www.py4e.com/html3/02-variables#variables) for storing values
+- [Expressions](https://www.py4e.com/html3/02-variables#expressions) for arithmetic
 
 Testing
 -------
