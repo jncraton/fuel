@@ -1,8 +1,29 @@
-from subprocess import run, PIPE
+import runpy
+from functools import wraps
 
-# Name of Python interpreter
-# This can be replaced with a full path to Python 3
-python_bin = "python3"
+
+class Runner:
+    def __init__(self, inputs):
+        self.inputs = inputs
+        self.output = ""
+
+    def run(self):
+        runpy.run_path(
+            "gas.py", {"print": self._print, "input": self._input}, "__main__"
+        )
+        return self.output
+
+    @wraps(print)
+    def _print(self, *values):
+        self.output += ",".join(map(str, values)) + "\n"
+
+    @wraps(input)
+    def _input(self, prompt):
+        testentry = str(self.inputs.pop(0))
+
+        self.output += prompt + testentry + "\n"
+        return testentry
+
 
 tests = [
     {"inputs": (0, 10, 2), "expects": ("10", "5")},
@@ -12,19 +33,19 @@ tests = [
     {"inputs": (12000, 12050, 5), "expects": ("50", "10")},
 ]
 
+
 def run_test(test):
-    stdin = '\n'.join(map(str, test["inputs"])).encode()
-    
-    stdout = run([python_bin, "gas.py"], input=stdin, stdout=PIPE).stdout
-    
+    log = Runner(list(test["inputs"])).run()
+
     for expect in test["expects"]:
-        if expect.encode() not in stdout:
-            print(f"Expected output {expect} was not found for input {test['inputs']}")
-            print(f"Got: {stdout.decode()}")
+        if expect not in log:
+            print(f"Expected output {expect} was not found in this test run:")
+            print(log)
             return False
     else:
         return True
-        
+
+
 results = [run_test(t) for t in tests]
- 
+
 print(f"Passed {sum(results)} out of {len(results)} tests.")
