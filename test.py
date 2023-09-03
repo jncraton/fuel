@@ -12,20 +12,19 @@ tests = [
     {"inputs": (12000, 12050, 5), "expects": ("50", "10")},
 ]
 
-passed = 0
-failed = 0
-
-for test in tests:
+def run_test(test):
     stdin = '\n'.join(map(str, test["inputs"])).encode()
     
     stdout = run([python_bin, "gas.py"], input=stdin, stdout=PIPE).stdout
     
     for expect in test["expects"]:
-        if expect.encode() in stdout:
-            passed += 1
-        else:
-            failed += 1
+        if expect.encode() not in stdout:
             print(f"Expected output {expect} was not found for input {test['inputs']}")
             print(f"Got: {stdout.decode()}")
+            return False
+    else:
+        return True
+        
+results = [run_test(t) for t in tests]
  
-print(f"Passed {passed} out of {passed+failed} tests.")
+print(f"Passed {sum(results)} out of {len(results)} tests.")
