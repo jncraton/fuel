@@ -26,6 +26,10 @@ Here's an example run of a correct program:
     You gas mileage for this fill-up was: 
     37.5
 
+Here is a screen recording of a correct run:
+
+![Demo of program running](demo.gif)
+
 The text of your program need not be identical to the above, but the calculated values should be correct.
 
 Testing
