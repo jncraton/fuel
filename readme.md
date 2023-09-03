@@ -46,11 +46,12 @@ Passed 5 out of 5 tests.
 If tests are not passing, you will see something more like this:
 
 ```
-Expected output 5 was not found for input (0, 10, 2)
-Got: Enter mileage from last fill-up: Enter current mileage: Miles traveled: 
-10
-How many gallons did you just put in the tank? Your gas mileage for this fill-up was: 
-0.2
+Expected output 37.5 was not found in this test run:
+Enter mileage from last fill-up: 1000
+Enter current mileage: 1300
+Miles traveled: 
+300
+How many gallons did you just put in the tank? 7
+Your gas mileage for this fill-up was: 
+42.857142857142854
 ```
-
-The included `test.py` program assumes that Python 3 is in your path and is available as `python3`. If that assumption is not valid on your system, you may need to add Python to your path or modify the Python location in `test.py`.
