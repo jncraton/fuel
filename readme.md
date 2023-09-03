@@ -35,4 +35,22 @@ The text of your program need not be identical to the above, but the calculated 
 Testing
 -------
 
-I will be grading your program by passing a number of input to it and checking the output in an automated fashion. If you'd like to confirm that your program is working correctly, you may run these tests yourself.
+I will be grading your program in part by passing a number of inputs to it and checking the output in an automated fashion. If you'd like to confirm that your program is working correctly, you may run these tests yourself by running `test.py`.
+
+A successful run of test.py will produce output like the following:
+
+```
+Passed 5 out of 5 tests.
+```
+
+If tests are not passing, you will see something more like this:
+
+```
+Expected output 5 was not found for input (0, 10, 2)
+Got: Enter mileage from last fill-up: Enter current mileage: Miles traveled: 
+10
+How many gallons did you just put in the tank? Your gas mileage for this fill-up was: 
+0.2
+```
+
+The included `test.py` program assumes that Python 3 is in your path and is available as `python3`. If that assumption is not valid on your system, you may need to add Python to your path or modify the Python location in `test.py`.
