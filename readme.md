@@ -32,6 +32,8 @@ Here is a screen recording of a correct run:
 
 The text of your program need not be identical to the above, but the calculated values should be correct.
 
+You may want to review [how fuel economy can be calculated](https://www.wikihow.com/Calculate-Your-Car%27s-Fuel-Efficiency-(MPG)) if you aren't already familiar with that.
+
 Key Concepts
 ------------
 
