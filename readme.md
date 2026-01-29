@@ -1,12 +1,10 @@
-Fuel Economy Calculator
-=======================
+# Fuel Economy Calculator
 
 ![A gas station](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Bp_station_zanesville_ohio.jpg/500px-Bp_station_zanesville_ohio.jpg)
 
 Design a fuel economy calculator
 
-Learning Objectives
--------------------
+## Learning Objectives
 
 After completing this assignment, learners will be able to:
 
@@ -15,8 +13,7 @@ After completing this assignment, learners will be able to:
 3. Collet user input using `input`
 4. Convert between string and numeric types using `int` or `float`
 
-Assignment
-----------
+## Assignment
 
 Create program which does the following in order:
 
@@ -30,10 +27,10 @@ Here's an example run of a correct program:
 
     Enter mileage from last fill-up: 1000
     Enter current mileage: 1300
-    Miles traveled: 
+    Miles traveled:
     300
     How many gallons did you just put in the tank? 8
-    You gas mileage for this fill-up was: 
+    You gas mileage for this fill-up was:
     37.5
 
 Here is a screen recording of a correct run:
@@ -44,8 +41,7 @@ The text of your program need not be identical to the above, but the calculated 
 
 You may want to review [how fuel economy can be calculated](https://www.fueleconomy.gov/mpg/MPG.do?action=calcMPG) if you aren't already familiar with that.
 
-Key Concepts
-------------
+## Key Concepts
 
 In order to complete this lab, you'll need to use the following:
 
