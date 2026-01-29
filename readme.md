@@ -3,7 +3,17 @@ Fuel Economy Calculator
 
 ![A gas station](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Bp_station_zanesville_ohio.jpg/500px-Bp_station_zanesville_ohio.jpg)
 
-A fuel economy calculator. This tool can be used to quickly calculate your fuel economy when filling up your tank.
+Design a fuel economy calculator
+
+Learning Objectives
+-------------------
+
+After completing this assignment, learners will be able to:
+
+1. Use Python expressions to computer values
+2. `print` values for the user to see
+3. Collet user input using `input`
+4. Convert between string and numeric types using `int` or `float`
 
 Assignment
 ----------
