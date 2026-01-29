@@ -1,7 +1,7 @@
 Fuel Economy Calculator
 =======================
 
-![A gas station](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Bp_station_zanesville_ohio.jpg/640px-Bp_station_zanesville_ohio.jpg)
+![A gas station](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Bp_station_zanesville_ohio.jpg/500px-Bp_station_zanesville_ohio.jpg)
 
 A fuel economy calculator. This tool can be used to quickly calculate your fuel economy when filling up your tank.
 
