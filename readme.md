@@ -8,14 +8,14 @@ Design a fuel economy calculator
 
 After completing this assignment, learners will be able to:
 
-1. Use Python expressions to computer values
+1. Use Python expressions to compute values
 2. `print` values for the user to see
-3. Collet user input using `input`
+3. Collect user input using `input`
 4. Convert between string and numeric types using `int` or `float`
 
 ## Assignment
 
-Create program which does the following in order:
+Create a program which does the following in order:
 
 1. Request the mileage at the last fill-up from the user
 2. Request the current mileage from the user
@@ -30,7 +30,7 @@ Here's an example run of a correct program:
     Miles traveled:
     300
     How many gallons did you just put in the tank? 8
-    You gas mileage for this fill-up was:
+    Your gas mileage for this fill-up was:
     37.5
 
 Here is a screen recording of a correct run:
